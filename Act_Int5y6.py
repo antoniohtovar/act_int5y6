@@ -39,7 +39,7 @@ df_selection = df.query(
 )
 
 
-st.title(":bar_chart: Crime Dashboard")
+st.title(":bar_chart: Crime SF")
 st.markdown("##")
 
 incidents = int(df_selection["Incident_ID"].count())
